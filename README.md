@@ -31,6 +31,6 @@ There are 3 main folders: `plots`, `datasets`, `results`
     * As convention, you can use a `*-full` directory and `*-full.zip` to store all results, even those that are not pushed to the remote repository (for example, `scheduling-full` and `scheduling-full.zip`). Then, move the results you want to backup remotely to the standard directory and zip (`scheduling` and `scheduling.zip`).
 
 ## Rules for branches/pushing/merging
-1. Use branches if you are working on some new project, then merge to `main` once your data is stable (e.g. you have submitted a paper)
+1. Use branches if you are working on some new project, then merge to `master` once your data is stable (e.g. you have submitted a paper)
 2. Data pushed to the remote repository should be seen as somewhat immutable. Avoid overwriting existing files unless you know what you are doing!
 3. For file names, organization etc. see **Organization**
