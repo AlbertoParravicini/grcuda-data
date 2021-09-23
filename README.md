@@ -22,6 +22,7 @@ If you ever find yourself in the position of re-creating the submodule in the ma
 ```
 cd $GRCUDA_HOME;
 git submodule add -b master git@github.com:AlbertoParravicini/grcuda-data.git 
+git submodule update --remote 
 ```
 
 ## Organization
