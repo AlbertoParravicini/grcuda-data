@@ -6,7 +6,7 @@ Archive repository for public data in GrCUDA: plots, datasets, benchmark results
 
 Guide about working with submodules: [link](https://git-scm.com/book/it/v2/Git-Tools-Submodules)
 
-* In the main GrCUDA repository (your `$GRCUDA_ROOT`) do the following.
+* In the main GrCUDA repository (your `$GRCUDA_HOME`) do the following.
 ```
 git submodule init    # Initialize submodule
 git submodule update  # Fetch changes to submodule
@@ -15,12 +15,12 @@ git submodule update  # Fetch changes to submodule
 
 * To update the content of the submodule, run `git submodule update --remote`
 
-* If you write scripts in GrCUDA (e.g. plotting scripts in `projects/resources/python/plotting`), assume that `grcuda-repo` is located in `grcuda`.
+* If you write scripts in GrCUDA (e.g. plotting scripts in `projects/resources/python/plotting`), assume that `grcuda-data` is located in `grcuda`.
 
 ### Setup from scratch
 If you ever find yourself in the position of re-creating the submodule in the main GrCUDA repository, download `grcuda-data` as a `git submodule` of the main GrCUDA repository, in its root folder, using SSH:
 ```
-cd $GRCUDA_ROOT;
+cd $GRCUDA_HOME;
 git submodule add git@github.com:AlbertoParravicini/grcuda-data.git 
 ```
 
