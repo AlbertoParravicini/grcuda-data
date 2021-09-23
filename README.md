@@ -1,6 +1,6 @@
 # GrCUDA-Data
 
-Archive repository for public data in GrCUDA: plots, datasets, benchmark results.
+Archive repository for public data in GrCUDA ([link to main repo](https://github.com/AlbertoParravicini/grcuda)): plots, datasets, benchmark results.
 
 ## Setup
 
@@ -21,7 +21,7 @@ git submodule update  # Fetch changes to submodule
 If you ever find yourself in the position of re-creating the submodule in the main GrCUDA repository, download `grcuda-data` as a `git submodule` of the main GrCUDA repository, in its root folder, using SSH:
 ```
 cd $GRCUDA_HOME;
-git submodule add git@github.com:AlbertoParravicini/grcuda-data.git 
+git submodule add -b master git@github.com:AlbertoParravicini/grcuda-data.git 
 ```
 
 ## Organization
