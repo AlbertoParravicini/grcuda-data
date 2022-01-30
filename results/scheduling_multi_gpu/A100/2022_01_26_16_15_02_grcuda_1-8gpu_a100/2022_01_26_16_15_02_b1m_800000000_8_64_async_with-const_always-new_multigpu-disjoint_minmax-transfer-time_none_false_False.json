@@ -1,0 +1,497 @@
+{
+    "num_iterations": 30,
+    "cpu_validation": false,
+    "random_init": false,
+    "benchmarks": {
+        "b1m": {
+            "800000000": {
+                "8": {
+                    "64": {
+                        "async": {
+                            "with-const": {
+                                "always-new": {
+                                    "multigpu-disjoint": {
+                                        "minmax-transfer-time": {
+                                            "none": {
+                                                "false": {
+                                                    "false": {
+                                                        "false": {
+                                                            "false": {
+                                                                "false": {
+                                                                    "32,8": [
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "allocation",
+                                                                                    "time_sec": 2.40273806
+                                                                                },
+                                                                                {
+                                                                                    "name": "initialization",
+                                                                                    "time_sec": 26.923730256
+                                                                                },
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 18.470112533
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 0,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.449972919,
+                                                                            "gpu_result": -4.9347997274230995,
+                                                                            "total_time_sec": 48.309109943,
+                                                                            "overhead_sec": 48.309109943,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 22.832566924
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 1,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.296871605,
+                                                                            "gpu_result": -4.9347997274231,
+                                                                            "total_time_sec": 23.158314466,
+                                                                            "overhead_sec": 23.158314466,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 21.3020794
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 2,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.250115924,
+                                                                            "gpu_result": -4.934799727423093,
+                                                                            "total_time_sec": 21.560661108,
+                                                                            "overhead_sec": 21.560661108,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 21.205577334
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 3,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.256005887,
+                                                                            "gpu_result": -4.934800204260256,
+                                                                            "total_time_sec": 21.470578095,
+                                                                            "overhead_sec": 21.470578095,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 20.181589448
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 4,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.294365377,
+                                                                            "gpu_result": -4.934800204260254,
+                                                                            "total_time_sec": 20.483286747,
+                                                                            "overhead_sec": 20.483286747,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.211348008
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 5,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.248921171,
+                                                                            "gpu_result": -4.9348002042602515,
+                                                                            "total_time_sec": 19.462851928,
+                                                                            "overhead_sec": 19.462851928,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.969445584
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 6,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.259611107,
+                                                                            "gpu_result": -4.934799250585939,
+                                                                            "total_time_sec": 20.231693272,
+                                                                            "overhead_sec": 20.231693272,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.543716576
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 7,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.263851919,
+                                                                            "gpu_result": -4.934799250585943,
+                                                                            "total_time_sec": 19.811260906,
+                                                                            "overhead_sec": 19.811260906,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.48780633
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 8,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.24878794,
+                                                                            "gpu_result": -4.9348002042602594,
+                                                                            "total_time_sec": 19.739565916,
+                                                                            "overhead_sec": 19.739565916,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.70953632
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 9,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.25658507,
+                                                                            "gpu_result": -4.934800204260261,
+                                                                            "total_time_sec": 19.968125767,
+                                                                            "overhead_sec": 19.968125767,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.384635096
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 10,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.251254666,
+                                                                            "gpu_result": -4.934800204260259,
+                                                                            "total_time_sec": 19.639221606,
+                                                                            "overhead_sec": 19.639221606,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.471640917
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 11,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.278354549,
+                                                                            "gpu_result": -4.934800204260262,
+                                                                            "total_time_sec": 19.751505315,
+                                                                            "overhead_sec": 19.751505315,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.584206941
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 12,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.462728046,
+                                                                            "gpu_result": -4.9347997274231,
+                                                                            "total_time_sec": 20.048070678,
+                                                                            "overhead_sec": 20.048070678,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.268115007
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 13,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.255940706,
+                                                                            "gpu_result": -4.934799727423098,
+                                                                            "total_time_sec": 19.526259205,
+                                                                            "overhead_sec": 19.526259205,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.207640662
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 14,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.302288231,
+                                                                            "gpu_result": -4.934798773748785,
+                                                                            "total_time_sec": 19.512588265,
+                                                                            "overhead_sec": 19.512588265,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.640713308
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 15,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.458550345,
+                                                                            "gpu_result": -4.934800204260259,
+                                                                            "total_time_sec": 20.100505057,
+                                                                            "overhead_sec": 20.100505057,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.555882442
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 16,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.432439144,
+                                                                            "gpu_result": -4.934799727423101,
+                                                                            "total_time_sec": 19.990485469,
+                                                                            "overhead_sec": 19.990485469,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.34183223
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 17,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.443152671,
+                                                                            "gpu_result": -4.934800204260263,
+                                                                            "total_time_sec": 19.787370867,
+                                                                            "overhead_sec": 19.787370867,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 20.003312291
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 18,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.255453259,
+                                                                            "gpu_result": -4.934800204260255,
+                                                                            "total_time_sec": 20.260869871,
+                                                                            "overhead_sec": 20.260869871,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 20.280916605
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 19,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.25913068,
+                                                                            "gpu_result": -4.934800204260253,
+                                                                            "total_time_sec": 20.542957041,
+                                                                            "overhead_sec": 20.542957041,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 20.28187983
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 20,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.39335063,
+                                                                            "gpu_result": -4.934800204260252,
+                                                                            "total_time_sec": 20.680023553,
+                                                                            "overhead_sec": 20.680023553,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.414456378
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 21,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.43429652,
+                                                                            "gpu_result": -4.934799727423104,
+                                                                            "total_time_sec": 19.850957481,
+                                                                            "overhead_sec": 19.850957481,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.89354231
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 22,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.347837572,
+                                                                            "gpu_result": -4.934800204260264,
+                                                                            "total_time_sec": 20.243727277,
+                                                                            "overhead_sec": 20.243727277,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.127215671
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 23,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.43378894,
+                                                                            "gpu_result": -4.934799727423097,
+                                                                            "total_time_sec": 19.562256535,
+                                                                            "overhead_sec": 19.562256535,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.069199819
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 24,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.362865013,
+                                                                            "gpu_result": -4.934800204260262,
+                                                                            "total_time_sec": 19.433914886,
+                                                                            "overhead_sec": 19.433914886,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 20.312338573
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 25,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.281244818,
+                                                                            "gpu_result": -4.934800204260259,
+                                                                            "total_time_sec": 20.595742342,
+                                                                            "overhead_sec": 20.595742342,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.289290211
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 26,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.254739766,
+                                                                            "gpu_result": -4.93480020426026,
+                                                                            "total_time_sec": 19.54630019,
+                                                                            "overhead_sec": 19.54630019,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 20.085469491
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 27,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.427900166,
+                                                                            "gpu_result": -4.934800204260264,
+                                                                            "total_time_sec": 20.515690812,
+                                                                            "overhead_sec": 20.515690812,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 20.330384973
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 28,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.402604198,
+                                                                            "gpu_result": -4.934800204260259,
+                                                                            "total_time_sec": 20.735281316,
+                                                                            "overhead_sec": 20.735281316,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        },
+                                                                        {
+                                                                            "phases": [
+                                                                                {
+                                                                                    "name": "reset_result",
+                                                                                    "time_sec": 19.475600559
+                                                                                }
+                                                                            ],
+                                                                            "iteration": 29,
+                                                                            "time_phases": false,
+                                                                            "computation_sec": 0.276370322,
+                                                                            "gpu_result": -4.9347997274230995,
+                                                                            "total_time_sec": 19.754086822,
+                                                                            "overhead_sec": 19.754086822,
+                                                                            "computation_sum_phases_sec": 0
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
